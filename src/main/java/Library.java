@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Library {
     Book[] books;
 
@@ -7,5 +9,11 @@ public class Library {
 
     public void setBooks(Book[] books) {
         this.books = books;
+    }
+
+    public String toString() {
+        return "Library{" +
+                "books=" + Arrays.toString(books) +
+                '}';
     }
 }
