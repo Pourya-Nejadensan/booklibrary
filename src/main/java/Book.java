@@ -1,7 +1,7 @@
 public class Book {
-    String title;
-    String author;
-    String isbn;
+    private String title;
+    private String author;
+    private String isbn;
 
     public String getAuthor() {
         return author;
