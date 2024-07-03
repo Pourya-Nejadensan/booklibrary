@@ -13,7 +13,7 @@ public class Library {
 
     public String toString() {
         return "Library{" +
-                "books=" + Arrays.toString(books) +
+                "books= " + Arrays.toString(books) +
                 '}';
     }
 }
