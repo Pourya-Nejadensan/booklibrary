@@ -26,4 +26,13 @@ public class Book {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
+
+
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", isbn='" + isbn + '\'' +
+                '}';
+    }
 }
